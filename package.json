@@ -15,5 +15,13 @@
     "path": "~0.12.7",
     "uuid": "^3.0.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0",
+    "gulp-zip": "^4.1.0",
+    "run-sequence": "^2.2.1"
+  }
 }

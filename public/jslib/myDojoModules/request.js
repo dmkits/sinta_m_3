@@ -1,4 +1,4 @@
-define(["dojo/request/xhr", "app", "dojo/domReady!"],
+define(["dojo/request/xhr", "myDojoModules/app", "dojo/domReady!"],
     function (xhr, APP) {
         return {
             jsonHeader: {"X-Requested-With": "application/json; charset=utf-8"},

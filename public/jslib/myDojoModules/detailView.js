@@ -5,7 +5,7 @@
  * Created by ianagez on 30.12.2016.
  */
 define(["dojo/_base/declare", "dojox/mobile/View", "dojox/mobile/Heading", "dojox/mobile/ScrollableView", "dojox/mobile/RoundRectList",
-        "dojox/mobile/ListItem", "dojox/mobile/ToolBarButton", "dojox/mobile/ProgressIndicator","request"],
+        "dojox/mobile/ListItem", "dojox/mobile/ToolBarButton", "dojox/mobile/ProgressIndicator","myDojoModules/request"],
     function (declare, View, Heading, ScrollableView, RoundRectList, ListItem, ToolBarButton, ProgressIndicator,Request) {
         return declare("PickUnitView", [View], {
             id: null,
